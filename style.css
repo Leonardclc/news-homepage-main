@@ -202,14 +202,14 @@
     .wrapper {
       display: grid;
       grid-template-columns: 0fr 0fr;
-      gap: 50px;
+      gap: 30px;
       padding-top: 40px;
       justify-content: center;
     }
 
     .w-logo {
       position: relative;
-      left: 740px;
+      left: 360px;
       top: 30px;
     }
 
@@ -220,7 +220,12 @@
       overflow-x: initial; 
       width: initial;
       position: relative;
-      left: 1200px;
+      left: 1050px;
+    }
+
+    .sidenav > a:hover {
+      cursor: pointer;
+      color: hsl(35, 77%, 62%);
     }
 
     .sidenav > img {
@@ -233,36 +238,61 @@
     }
 
     .a1 img {
-      max-width: 700px;
+    
     }
     .a2 {
-      max-width: 600px;
+      width: 350px;
       margin: 0;
+      padding: 0;
 
     }
 
     .new {
+      height: 480px;
+      padding: 10px 10px 10px 10px;
+      margin: 0;
+    }
+
+    .new > h3:hover {
+      cursor: pointer;
+      color: hsl(35, 77%, 62%);
+    }
+
+    .new > p {
+      margin: 0;
+      padding: 10px 10px 10px 10px;
+    }
+
+    .new > h2 {
+      margin: 0;
+      padding: 10px 10px 10px 10px;
+      font-size: 2rem;
+    }
+
+    .new > h3 {
+      margin: 0;
+      padding: 10px 10px 10px 10px;
     }
 
     .row3 {
       display: flex;
       margin-right: -400px;
       max-height: 200px;
-      max-width: 1000px;
+   
       margin-top: 0;
       margin-bottom: 0;
     }
 
     .row3 img {
       width: auto;
-      height: 100%;
+      height: 90%;
       margin: 0;
     }
 
     .web3 > h1 {
       float: left;
-      max-width: 300px;
-      font-size: 3rem;
+      max-width: 380px;
+      font-size: 3.5rem;
       line-height: 60px;
     }
 
@@ -272,18 +302,38 @@
 
     .retro-text {
       margin-right: 30px;
-      width: 350px;
+      width: 370px;
+    }
+
+    .retro-text > h3:hover {
+      cursor: pointer;
+      color: hsl(5, 85%, 63%);
     }
 
     .lap-text {
-      width: 350px;
+      width: 360px;
       margin-right: 30px;
+    }
+
+    .lap-text > h3:hover {
+      cursor: pointer;
+      color: hsl(5, 85%, 63%);
+    }
+
+    .growth-text > h3:hover {
+      cursor: pointer;
+      color: hsl(5, 85%, 63%);
     }
 
     .growth-text {
       width: 400px;
     }
-  }
 
+    .web3 > a:hover {
+      cursor: pointer;
+      background-color: hsl(240, 100%, 5%);
+    }
+    }
+  }
 
 
