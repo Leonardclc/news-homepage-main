@@ -198,19 +198,21 @@
     body {
       margin: 0;
     }
+
+    main {
+      margin: 0;
+    }
     
     .wrapper {
       display: grid;
       grid-template-columns: 0fr 0fr;
       gap: 30px;
-      padding-top: 40px;
       justify-content: center;
     }
 
     .w-logo {
       position: relative;
-      left: 360px;
-      top: 30px;
+
     }
 
     .sidenav > a {
@@ -220,7 +222,7 @@
       overflow-x: initial; 
       width: initial;
       position: relative;
-      left: 1050px;
+
     }
 
     .sidenav > a:hover {
@@ -333,7 +335,16 @@
       cursor: pointer;
       background-color: hsl(240, 100%, 5%);
     }
+    
+    .header {
+      display: grid;
+      align-items: center;
+      justify-content: space-between;
+      grid-template: "logo sidenav" auto;
+      padding: 40px 370px;
+      margin: 0 auto;
     }
-  }
+
+    }
 
 
